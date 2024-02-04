@@ -1,4 +1,4 @@
-<h1 align="center">Migration Adventure</h1>
+<h1 align="center">Migration Challenge</h1>
 <div align="center">
   <h2> A 2D Platformer game built using computer graphics and visualization concepts in python. Embark on an exciting bird migration adventure where you take on the role of various bird species. Navigate through different continents, each hosting a unique environment and challenges for the migrating birds. </h2>
     <h3>
