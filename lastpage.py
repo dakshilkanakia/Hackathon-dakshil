@@ -1,7 +1,7 @@
 import pygame
 import webbrowser
-from pygame.locals import *
-from header import *
+from pygame.locals import KEYDOWN, K_ESCAPE
+import sys
 
 # Pygame setup
 pygame.init()
@@ -20,6 +20,11 @@ font_h2 = pygame.font.Font(None, 44)  # Font for h2
 background_gif = pygame.image.load("winning_page.gif")  # Replace with your background GIF path
 background_gif = pygame.transform.scale(background_gif, (1280, 720))  # Resize the GIF to match the screen size
 
+#load value from variable.txt
+file = open("variable.txt", "r")
+temp = int(file.read())
+file.close()
+
 # Load video image
 
 image_dict = [['arctic_tern.png','https://www.youtube.com/watch?v=LyqmOpVncxI'],
@@ -31,7 +36,7 @@ image_dict = [['arctic_tern.png','https://www.youtube.com/watch?v=LyqmOpVncxI'],
                 ['european_eel.png','https://www.youtube.com/watch?v=cNqp4tcRRms'],
                 ['leatherback.png','https://www.youtube.com/watch?v=UW-rcxcONYY'],
                 ]
-video_image = pygame.image.load(image_dict[temp][0])  # Replace with your video icon image
+video_image = pygame.image.load(image_dict[temp-1][0])  # Replace with your video icon image
 
 image_size = (200, 200)
 
@@ -42,7 +47,7 @@ video_image = pygame.transform.scale(video_image, image_size)
 video_rect = video_image.get_rect(center=(640, 420))  # Adjust the position to the bottom of the screen
 
 # YouTube link
-youtube_link = image_dict[temp][1]  
+youtube_link = image_dict[temp-1][1]  
 
 running = True
 while running:

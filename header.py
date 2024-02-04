@@ -17,6 +17,5 @@ SCREEN = pygame.display.set_mode((WIN_WIDTH, WIN_HEIGHT))
 TOTAL_DISTANCE = 0
 
 # Required Distance
-REQ_DISTANCE = 1000
+REQ_DISTANCE = 100
 
-temp = -1

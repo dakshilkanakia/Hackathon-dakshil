@@ -125,10 +125,13 @@ while running:
                         running = False
                         waiting = False
                     elif event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
-                        script_path = "lastpage.py"
-                        subprocess.run(['python', script_path])
+                        print("jjujjujjuju")
+                        script_path1 = "lastpage.py"
+                        subprocess.run(['python', script_path1])
+                        waiting = False
+                        running = False
+                        pygame.quit()
                         sys.exit()
-            
             break
     end_time = time.time()
 
@@ -149,5 +152,3 @@ while running:
     # Window fps
     clock.tick(25)
     
-
-pygame.quit()
