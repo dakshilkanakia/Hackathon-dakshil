@@ -231,7 +231,7 @@ def initialize():
 
     def popup(a):
         if a == 1:
-            bg_image = pygame.image.load("popup1.jpg").convert()
+            bg_image = pygame.image.load("about_arctictern.png").convert()
             scaled_image = pygame.transform.scale(bg_image, (1280, 720))
             SCREEN.blit(scaled_image, (0, 0))
             pygame.display.update()
@@ -241,7 +241,7 @@ def initialize():
             romil(START_COORDS,DESTINATION_COORDS)
 
         elif a == 2:
-            bg_image = pygame.image.load("popup1.jpg").convert()
+            bg_image = pygame.image.load("about_commonswift.png").convert()
             scaled_image = pygame.transform.scale(bg_image, (1280, 720))
             SCREEN.blit(scaled_image, (0, 0))
             pygame.display.update()
@@ -251,7 +251,7 @@ def initialize():
             romil(START_COORDS,DESTINATION_COORDS)
 
         elif a == 3:
-            bg_image = pygame.image.load("popup1.jpg").convert()
+            bg_image = pygame.image.load("about_loggerhead.png").convert()
             scaled_image = pygame.transform.scale(bg_image, (1280, 720))
             SCREEN.blit(scaled_image, (0, 0))
             pygame.display.update()
@@ -261,7 +261,7 @@ def initialize():
             romil(START_COORDS,DESTINATION_COORDS)
 
         elif a == 4:
-            bg_image = pygame.image.load("popup1.jpg").convert()
+            bg_image = pygame.image.load("about_bluefin.png").convert()
             scaled_image = pygame.transform.scale(bg_image, (1280, 720))
             SCREEN.blit(scaled_image, (0, 0))
             pygame.display.update()
@@ -271,7 +271,7 @@ def initialize():
             romil(START_COORDS,DESTINATION_COORDS)
 
         elif a == 5:
-            bg_image = pygame.image.load("popup1.jpg").convert()
+            bg_image = pygame.image.load("about_siberian.png").convert()
             scaled_image = pygame.transform.scale(bg_image, (1280, 720))
             SCREEN.blit(scaled_image, (0, 0))
             pygame.display.update()
@@ -281,7 +281,7 @@ def initialize():
             romil(START_COORDS,DESTINATION_COORDS)
 
         elif a == 6:
-            bg_image = pygame.image.load("snow_goose_popup.png").convert()
+            bg_image = pygame.image.load("about_snowgeese.png").convert()
             scaled_image = pygame.transform.scale(bg_image, (1280, 720))    
             SCREEN.blit(scaled_image, (0, 0))
             pygame.display.update()
@@ -291,7 +291,7 @@ def initialize():
             romil(START_COORDS,DESTINATION_COORDS)
 
         elif a == 7:
-            bg_image = pygame.image.load("popup1.jpg").convert()
+            bg_image = pygame.image.load("about_eel.png").convert()
             scaled_image = pygame.transform.scale(bg_image, (1280, 720))
             SCREEN.blit(scaled_image, (0, 0))
             pygame.display.update()
@@ -301,7 +301,7 @@ def initialize():
             romil(START_COORDS,DESTINATION_COORDS)
 
         elif a == 8:
-            bg_image = pygame.image.load("popup1.jpg").convert()
+            bg_image = pygame.image.load("about_leatherback.png").convert()
             scaled_image = pygame.transform.scale(bg_image, (1280, 720))        
             SCREEN.blit(scaled_image, (0, 0))
             pygame.display.update()
