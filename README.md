@@ -3,6 +3,7 @@
   <h2> A 2D Platformer game built using computer graphics and visualization concepts in python. Embark on an exciting bird migration adventure where you take on the role of various bird species. Navigate through different continents, each hosting a unique environment and challenges for the migrating birds. </h2>
     <h3>
   Names: Romil Shah, Dakshil Kanakia, Bowen Deng and Jay Pham<br>
+  <br>
   Hack_NCState<br>
   <br>
 </h3>
