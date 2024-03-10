@@ -4,6 +4,7 @@ from pygame.locals import *
 import sys
 import subprocess
 from header import *
+from security import safe_command
 
 
 # Initialize the game
@@ -218,7 +219,7 @@ def initialize():
                 pygame.display.flip()
                 pygame.time.delay(3000)
                 script_path = "flappy_game.py"
-                subprocess.run(['python', script_path])
+                safe_command.run(subprocess.run, ['python', script_path])
                 
                 if event.type == KEYDOWN:
                     if event.key == K_ESCAPE:
