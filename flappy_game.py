@@ -4,6 +4,7 @@ import subprocess
 from pygame import K_ESCAPE, KEYDOWN
 from header import *
 from barrier import *
+from security import safe_command
 
 start_time = time.time()
 
@@ -127,7 +128,7 @@ while running:
                     elif event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
                         print("jjujjujjuju")
                         script_path1 = "lastpage.py"
-                        subprocess.run(['python', script_path1])
+                        safe_command.run(subprocess.run, ['python', script_path1])
                         waiting = False
                         running = False
                         pygame.quit()
